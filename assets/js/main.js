@@ -53,6 +53,19 @@
 					side: 'right'
 				});
 
+			$window.on("scroll", function() {
+				if($window.scrollTop() > 490) {
+					$("#header.alt").addClass("active");
+				} else {
+					$("#header.alt").removeClass("active");
+				}
+			});
+
 	});
+
+/*(function($) {
+	
+});*/
+
 
 })(jQuery);

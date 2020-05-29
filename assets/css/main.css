@@ -3693,7 +3693,7 @@
 			background-color: transparent;
 			font-size: 1.25em;
 			padding: 1em 2em;
-			position: absolute;
+			position: fixed;
 		}
 
 			#header.alt > h1 {
@@ -3964,7 +3964,8 @@
 				#banner input[type="button"].special:hover,
 				#banner button.special:hover,
 				#banner .button.special:hover {
-					background-color: #63c1ae;
+					background-color: #fff;
+					color: #E0BCE7 !important;
 				}
 
 				#banner input[type="submit"].special:active,
@@ -3972,7 +3973,8 @@
 				#banner input[type="button"].special:active,
 				#banner button.special:active,
 				#banner .button.special:active {
-					background-color: #45ad97;
+					background-color: #fff;
+					color: #E0BCE7 !important;
 				}
 
 			#banner input[type="submit"].alt,
@@ -4227,4 +4229,9 @@
 				padding: 2em 0 0.1em 0;
 			}
 
+		}
+
+		.active {
+			background-color: black !important;
+			height: inherit !important;
 		}
