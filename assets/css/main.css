@@ -4243,3 +4243,16 @@
 			background-color: #E0BCE7 !important;
 			height: inherit !important;
 		}
+
+		.two-column {
+			content: "";
+			display: table;
+			clear: both;
+			width: 70%;
+			margin: auto;
+		}
+
+		.column {
+			float: left;
+			width: 50%;
+		}
