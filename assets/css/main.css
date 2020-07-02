@@ -4218,6 +4218,12 @@
 				padding-bottom: 5%;
 			}
 
+			.bio {
+				padding: 0;
+				margin-top: 5% !important;
+				margin-bottom: 5% !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4241,6 +4247,12 @@
 				padding-bottom: 5%;
 			}
 
+			.bio {
+				padding: 0;
+				margin-top: 5% !important;
+				margin-bottom: 5% !important;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -4253,6 +4265,12 @@
 				width: 100% !important;
 				margin: auto !important;
 				padding-bottom: 5%;
+			}
+
+			.bio {
+				padding: 0;
+				margin-top: 5% !important;
+				margin-bottom: 5% !important;
 			}
 
 		}
