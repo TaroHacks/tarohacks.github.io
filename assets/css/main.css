@@ -4229,6 +4229,11 @@
 				margin-top: 9%;
 			}
 
+			.ssimg {
+				padding: 0 !important;
+
+			}
+
 			.sponsor {
 				padding-top: 3% !important;
 				padding-bottom: 3% !important;
@@ -4298,4 +4303,8 @@
 
 		.partnerb {
 			padding-right: 3%;
+		}
+
+		.ssimg {
+			padding-left: 10%;
 		}
