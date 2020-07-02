@@ -4239,6 +4239,15 @@
 				padding-bottom: 3% !important;
 			}
 
+			.two-column {
+				width: 95% !important;
+				margin: auto;
+			}
+
+			.column {
+				width: 100% !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
