@@ -4255,6 +4255,7 @@
 
 			.two-column {
 				width: 95% !important;
+				display: block;
 			}
 
 			.column {
