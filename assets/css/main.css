@@ -3341,6 +3341,7 @@
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/pic12.jpg");
 			background-size: cover;
+			background-position: center;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
