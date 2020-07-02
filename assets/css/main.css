@@ -4229,6 +4229,11 @@
 				margin-top: 9%;
 			}
 
+			.sponsor {
+				padding-top: 3% !important;
+				padding-bottom: 3% !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4285,4 +4290,12 @@
 
 		.contentwrap {
 			margin: 10px;
+		}
+
+		.partnera {
+			padding-left: 3%;
+		}
+
+		.partnerb {
+			padding-right: 3%;
 		}
