@@ -4212,6 +4212,12 @@
 				width: 100%;
 			}
 
+			.flyer {
+				width: 100% !important;
+				margin: auto !important;
+				padding-bottom: 5%;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4229,12 +4235,24 @@
 				font-size: 0.9em;
 			}
 
+			.flyer {
+				width: 100% !important;
+				margin: auto !important;
+				padding-bottom: 5%;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#footer .inner {
 				padding: 2em 0 0.1em 0;
+			}
+
+			.flyer {
+				width: 100% !important;
+				margin: auto !important;
+				padding-bottom: 5%;
 			}
 
 		}
