@@ -1,4 +1,4 @@
-# TaroHacks
-TaroHacks Official Website <br>
-August 1st - 8th 2020 <br>
-<a href = "https://teamtaroftc.com">teamtaroftc.com</a>
+# tarohacks-website
+TaroHacks Hackathon Website \
+August 1st - 8th 2020 \
+🔗 [teamtaroftc.com](https://teamtaroftc.com)
