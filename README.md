@@ -1,4 +1,4 @@
 # tarohacks-website
 TaroHacks Hackathon Website \
-August 1st - 8th 2020 \
+August 12th - 13th 2023 \
 🔗 [teamtaroftc.com](https://teamtaroftc.com)
