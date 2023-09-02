@@ -121,7 +121,7 @@ body {
 .tarohacks-heading-background {
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -237,4 +237,21 @@ body {
   padding-bottom: 0px;
   padding-top:0px;
   font-family: raleway;
+}
+
+.button {
+  border: solid;
+  border-color: black;
+  border-radius: 5px;
+  color: #E0BCE7;
+  background-color:white;
+  padding: 12.5px 28px;
+  text-align: center;
+  text-decoration: none;
+  font: "raleway";
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
