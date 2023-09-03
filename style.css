@@ -259,6 +259,8 @@ body {
   cursor: pointer;
 }
 
+/* aesthetic changes */
+
 .button:hover {
   color:#6b4a77;
   text-decoration: none;
