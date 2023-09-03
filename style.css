@@ -123,6 +123,9 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
 }
 
 .tarohacks-heading-text {
@@ -254,4 +257,19 @@ body {
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.button:hover {
+  color:#6b4a77;
+  text-decoration: none;
+}
+
+a {
+  color:#6b4a77;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#9d5fb5;
+  text-decoration: underline;
 }
