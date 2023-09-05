@@ -20,48 +20,48 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
+    <script defer src="app.js"></script>
   <style>
   </style>
 
   </head>
   <body>
-
     <div class="tarohacks-center-div">
-      <div class="tarohacks-main-info">
+      <div class="tarohacks-main-info hidden">
         <div class="tarohacks-heading-background">
           <h2 class="tarohacks-heading-text">TAROHACKS V2</h2>
         </div>
-        <img src="img/tarohacksicon.png" style="float:right; width:40%; padding-right: 0px; border-style: solid; border-radius: 50%; margin-top: 25px; margin-right: 25px;"/>
+        <img src="img/tarohacksicon.png" class="order hidden" style="float:right; width:40%; padding-right: 0px; border-style: solid; border-radius: 50%; margin-top: 25px; margin-right: 25px;"/>
         <br>
         <h5>September 30th to October 1st, 2023</h5>
         <h5>The Play Space, San Jose</h5>
         <h6><a href = "https://www.google.com/maps/place/2215+Old+Oakland+Rd+B,+San+Jose,+CA+95131/@37.3997538,-121.9058826,17z/data=!3m1!4b1!4m6!3m5!1s0x808fc95318ecac63:0x1991644486f82ab5!8m2!3d37.3997538!4d-121.9033077!16s%2Fg%2F11rhw2wbzz?entry=ttu">2215 Old Oakland Rd B, San Jose, CA 95131, USA</a></h6>
-      <a href="https://forms.gle/9S1QCWdT6KTzXS419" class="button">Register for TaroHacks V2</a>
-      <a href="https://tarohacks2023.devpost.com/" class="button">Devpost</a>
-      <a href="https://www.instagram.com/team_taro_ftc/" class="button">Instagram</a>        
+      <a href="https://forms.gle/9S1QCWdT6KTzXS419" class="button order hidden">Register for TaroHacks V2</a>
+      <a href="https://tarohacks2023.devpost.com/" class="button order hidden">Devpost</a>
+      <a href="https://www.instagram.com/team_taro_ftc/" class="button order hidden">Instagram</a>        
       </div>
       
-
-      <h4>About TaroHacks</h4>
-        <p>We are TaroHacks, a middle school and high school hackathon with the goal of helping students learn new skills 
-          to make projects that have an impact on their communities. Hackathon participants will have the opportunity to 
-          create a project that improves our environment through an exciting 24-hour challenge. Our hackathon aims to inspire 
-          more students of our generation to find an interest in technology and engineering through teamwork, innovation, creativity, 
-          and collaboration. 
+      <div class = "about hidden">
+        <h4>About TaroHacks</h4>
+          <p>We are TaroHacks, a middle school and high school hackathon with the goal of helping students learn new skills 
+            to make projects that have an impact on their communities. Hackathon participants will have the opportunity to 
+            create a project that improves our environment through an exciting 24-hour challenge. Our hackathon aims to inspire 
+            more students of our generation to find an interest in technology and engineering through teamwork, innovation, creativity, 
+            and collaboration. 
+          </p>
+        <h4>Competition Details and Schedule</h4>
+        <P>TaroHacks will begin at 8:00am on Saturday, September 30th, 2023 and will conclude at 10:00am on October 1st, 2023. 
+        <!-- The schedule for TaroHacks can be found <a href="https://docs.google.com/spreadsheets/d/1aSnFv3IVX2GjfRvVM9iaiot7syKgAKL1xhMKv5VVS-Y/edit?usp=sharing">here</a>.--></P> 
+        <p>Participants must be between 12 and 18 years of age or be entering the 7th to 12th grades for the 2023-2024 school year. 
+          Participants must be able to commute to and from TaroHacks, which will be hosted in the Bay Area.
         </p>
-      <h4>Competition Details and Schedule</h4>
-      <P>TaroHacks will begin at 8:00am on Saturday, September 30th, 2023 and will conclude at 10:00am on October 1st, 2023. 
-      <!-- The schedule for TaroHacks can be found <a href="https://docs.google.com/spreadsheets/d/1aSnFv3IVX2GjfRvVM9iaiot7syKgAKL1xhMKv5VVS-Y/edit?usp=sharing">here</a>.--></P> 
-      <p>Participants must be between 12 and 18 years of age or be entering the 7th to 12th grades for the 2023-2024 school year. 
-        Participants must be able to commute to and from TaroHacks, which will be hosted in the Bay Area.
-      </p>
-      <P>There will be around $1350 worth of prizes available. Details can be found <a href = "https://tarohacks2023.devpost.com/">here</a>.</P>
-      <p>Questions? Email us at <a href="mailto:teamtaroftc@gmail.com">teamtaroftc@gmail.com</a>!</p>
-
-      <hr> 
+        <P>There will be around $1350 worth of prizes available. Details can be found <a href = "https://tarohacks2023.devpost.com/">here</a>.</P>
+        <p>Questions? Email us at <a href="mailto:teamtaroftc@gmail.com">teamtaroftc@gmail.com</a>!</p>
+      </div>
+      <hr class="hidden"> 
 
       <!-- TaroHacks Schedule (tentative) -->
-      <div class="schedule_row">
+      <div class="schedule_row hidden">
         <div class="schedule_column" style="font-family: raleway;">
           <h5>September 30th - Saturday</h5>
           <h6>Opening</h6>
@@ -93,9 +93,9 @@
         </div>
       </div>
 
-      <hr>
+      <hr class="hidden">
 
-      <div class="tarohacks-faq">
+      <div class="tarohacks-faq hidden">
         <h4>Frequently Asked Questions</h4>
         <p></p>
         <b>How much does TaroHacks cost?</b>
@@ -121,43 +121,42 @@
 
 
   <!-- Judges -->
-  <h4 style = "text-align: center">TaroHacks 2023 Judges</h4>
-
-  <div class="flex-container">
-        <div>
-          <img src="img/tsang.jpg" class="card-img-top">
-            <div class="card-body">
-              <h4 class="card-title" style = "text-align: center">Wilson Tsang</h4>
-              <h5 class="card-text" style = "text-align: center">PhD Retired/Substitute Teacher at SCUSD</h5>
-            </div>
-        </div>
-        <div>
-          <img src="img/corey-wade.jpg" class="card-img-top">
-          <div class="card-body">
-            <h4 class="card-title" style = "text-align: center">Corey Wade</h4>
-            <h5 class="card-text" style = "text-align: center">Director & Founder of Berkeley Coding Academy</h5>
+  <div class="judges hidden">
+    <h4 style = "text-align: center">TaroHacks 2023 Judges</h4>
+    <div class="flex-container squares">
+          <div class = "square hidden">
+            <img src="img/tsang.jpg" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title" style = "text-align: center">Wilson Tsang</h4>
+                <h5 class="card-text" style = "text-align: center">PhD Retired/Substitute Teacher at SCUSD</h5>
+              </div>
           </div>
-        </div>
-       <div>
-          <img src="img/vladislav.jpeg" class="card-img-top">
+          <div class="square hidden">
+            <img src="img/corey-wade.jpg" class="card-img-top">
             <div class="card-body">
-              <h4 class="card-title" style = "text-align: center">Vladislav Bilay</h4>
-              <h5 class="card-text" style = "text-align: center">Cloud DevOps engineer at Aquiva Labs</h5>
+              <h4 class="card-title" style = "text-align: center">Corey Wade</h4>
+              <h5 class="card-text" style = "text-align: center">Director & Founder of Berkeley Coding Academy</h5>
             </div>
-        </div>  
-        <div>
-          <img src="img/dominic.jpeg" class="card-img-top">
-            <div class="card-body">
-              <h4 class="card-title" style = "text-align: center">Dominic Damoah</h4>
-              <h5 class="card-text" style = "text-align: center">PhD, Computer Science</h5>
-            </div>
-        </div> 
-  </div>
-
-  <hr>
-
-  <div class="tarohacks-sponsors">
+          </div>
+        <div class="square hidden">
+            <img src="img/vladislav.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title" style = "text-align: center">Vladislav Bilay</h4>
+                <h5 class="card-text" style = "text-align: center">Cloud DevOps engineer at Aquiva Labs</h5>
+              </div>
+          </div>  
+          <div class="square hidden">
+            <img src="img/dominic.jpeg" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title" style = "text-align: center">Dominic Damoah</h4>
+                <h5 class="card-text" style = "text-align: center">PhD, Computer Science</h5>
+              </div>
+          </div> 
     </div>
+  </div>
+  <hr class="hidden">
+
+  <div class="tarohacks-sponsors hidden">
     <h4 style = "text-align: center">TaroHacks 2023 Sponsors</h4>
       <div>
       <div>
@@ -168,23 +167,22 @@
 
 
 <!-- Sponsor Image Grid-->
-  <div class = "row">
-    <div class="column">
-        <a href="https://www.ea.com/ea-studios"><img src="img/EA.png" style="width:100%; padding-left: 70px; padding-right: 70px;"/></a>
-        <a href="https://www.desmos.com/"><img src="img/desmos.png" style="width:100%"/></a>
-        <a href="https://www.wolfram.com/language/"><img src="img/wolfram.png" style="width:100%"/></a>
-        <a href="https://ziggeo.com/"><img src="img/ziggeo_trans.png" style="width:100%; padding-top:2px;"/></a>
+    <div class = "row">
+      <div class="column spons">
+          <a href="https://www.ea.com/ea-studios" class="hidden spon" ><img src="img/EA.png" style="width:100%; padding-left: 70px; padding-right: 70px;"/></a>
+          <a href="https://www.desmos.com/" class="hidden spon" ><img src="img/desmos.png" style="width:100%"/></a>
+          <a href="https://www.wolfram.com/language/" class="hidden spon" ><img src="img/wolfram.png" style="width:100%"/></a>
+          <a href="https://ziggeo.com/" class="hidden spon" ><img src="img/ziggeo_trans.png" style="width:100%; padding-top:2px;"/></a>
+      </div>
+      <div class="column">
+          <a href="https://www.hrsexperience.org/" class="hidden spon" ><img src="img/HRSE.png" style="width:100%; padding-left: 70px; padding-right: 70px;"/></a>
+          <a href="https://www.echo3d.com/"  class="hidden spon" ><img src="img/echoar.png" style="width:100%"/></a>
+          <a href="https://balsamiq.com/"  class="hidden spon" ><img src="img/balsamiq-logo.png" style="width:100%"/></a>
+          <a href="https://artofproblemsolving.com/" class="hidden spon" ><img src="img/AoPS_Trans(1).png" style="width:100%"/></a>
+      </div> 
     </div>
-    <div class="column">
-        <a href="https://www.hrsexperience.org/"><img src="img/HRSE.png" style="width:100%; padding-left: 70px; padding-right: 70px;"/></a>
-        <a href="https://www.echo3d.com/" ><img src="img/echoar.png" style="width:100%"/></a>
-        <a href="https://balsamiq.com/" ><img src="img/balsamiq-logo.png" style="width:100%"/></a>
-        <a href="https://artofproblemsolving.com/"><img src="img/AoPS_Trans(1).png" style="width:100%"/></a>
-    </div> 
   </div>
-
 </div>
-  
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-flex">
