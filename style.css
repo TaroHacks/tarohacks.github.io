@@ -333,34 +333,36 @@ a:hover {
 /*Sponsors*/
 
 .spon:nth-child(1) {
-  transition-delay: 500ms;
+  transition-delay: 200ms;
 }
 
 .spon:nth-child(2) {
-  transition-delay: 600ms;
+  transition-delay: 400ms;
 }
 
 .spon:nth-child(3) {
-  transition-delay: 800ms;
-}
-
-.spon:nth-child(4) {
-  transition-delay: 1000ms;
-}
-
-.spon:nth-child(5) {
-  transition-delay: 1000ms;
-}
-
-.spon:nth-child(6) {
   transition-delay: 500ms;
 }
 
+.spon:nth-child(4) {
+  transition-delay: 650ms;
+}
+
+.spon:nth-child(5) {
+  transition-delay: 200ms;
+}
+
+.spon:nth-child(6) {
+  transition-delay: 400ms;
+}
+
 .spon:nth-child(7) {
-  transition-delay: 600ms;
+  transition-delay: 500ms;
 }
 
 .spon:nth-child(8) {
-  transition-delay: 800ms;
+  transition-delay: 650ms;
 }
+
+
 
