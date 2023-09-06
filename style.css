@@ -275,3 +275,92 @@ a:hover {
   color:#9d5fb5;
   text-decoration: underline;
 }
+
+/* Transitions */
+
+.hidden {
+  opacity: 0;
+  filter:blur(5px);
+  transform: translateX(-100%);
+  transition: 1s;
+}
+
+.show {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+  @media(prefers-reduced-motion) {
+    .hidden {
+      transition: none;
+    }
+  }
+
+.square:nth-child(1) {
+  transition-delay: 200ms;
+}
+
+.square:nth-child(2) {
+  transition-delay: 400ms;
+}
+
+.square:nth-child(3) {
+  transition-delay: 200ms;
+}
+
+.square:nth-child(4) {
+  transition-delay: 400ms;
+}
+
+/*buttons*/
+.order:nth-child(1) {
+  transition-delay: 100ms;
+}
+
+.order:nth-child(2) {
+  transition-delay: 300ms;
+}
+
+.order:nth-child(3) {
+  transition-delay: 500ms;
+}
+
+.order:nth-child(4) {
+  transition-delay: 700ms;
+}
+
+/*Sponsors*/
+
+.spon:nth-child(1) {
+  transition-delay: 500ms;
+}
+
+.spon:nth-child(2) {
+  transition-delay: 600ms;
+}
+
+.spon:nth-child(3) {
+  transition-delay: 800ms;
+}
+
+.spon:nth-child(4) {
+  transition-delay: 1000ms;
+}
+
+.spon:nth-child(5) {
+  transition-delay: 1000ms;
+}
+
+.spon:nth-child(6) {
+  transition-delay: 500ms;
+}
+
+.spon:nth-child(7) {
+  transition-delay: 600ms;
+}
+
+.spon:nth-child(8) {
+  transition-delay: 800ms;
+}
+
