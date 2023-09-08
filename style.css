@@ -248,13 +248,13 @@ body {
   border-radius: 5px;
   color: #E0BCE7;
   background-color:white;
-  padding: 12.5px 28px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   font: "raleway";
   font-weight: bold;
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -364,5 +364,7 @@ a:hover {
   transition-delay: 650ms;
 }
 
-
-
+/* Hacker Effect */
+.hack {
+  font-family: "Space mono", monospace;
+}
