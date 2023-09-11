@@ -14,7 +14,7 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 
-const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const letters = "TEAMTAROFTC";
 
 document.querySelector("a").onmouseover = event => {
     let iterations = 0;
@@ -25,12 +25,12 @@ document.querySelector("a").onmouseover = event => {
                 return event.target.dataset.value[index];
             }
             
-            return letters[Math.floor(Math.random() * 26)]
+            return letters[Math.floor(Math.random() * 11)]
         })
         .join("");
 
         if(iterations >= event.target.dataset.value.length) clearInterval(interval);
 
         iterations +=  1;
-    }, 30);
+    }, 15);
 }
