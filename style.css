@@ -298,70 +298,70 @@ a:hover {
   }
 
 .square:nth-child(1) {
-  transition-delay: 200ms;
+  transition-delay: 50ms;
 }
 
 .square:nth-child(2) {
-  transition-delay: 400ms;
+  transition-delay: 75ms;
 }
 
 .square:nth-child(3) {
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 
 .square:nth-child(4) {
-  transition-delay: 400ms;
+  transition-delay: 125ms;
 }
 
 /*buttons*/
 .order:nth-child(1) {
-  transition-delay: 100ms;
+  transition-delay: 50ms;
 }
 
 .order:nth-child(2) {
-  transition-delay: 300ms;
+  transition-delay: 75ms;
 }
 
 .order:nth-child(3) {
-  transition-delay: 500ms;
+  transition-delay: 100ms;
 }
 
 .order:nth-child(4) {
-  transition-delay: 700ms;
+  transition-delay: 125ms;
 }
 
 /*Sponsors*/
 
 .spon:nth-child(1) {
-  transition-delay: 100ms;
+  transition-delay: 50ms;
 }
 
 .spon:nth-child(2) {
-  transition-delay: 200ms;
+  transition-delay: 75ms;
 }
 
 .spon:nth-child(3) {
-  transition-delay: 300ms;
-}
-
-.spon:nth-child(4) {
-  transition-delay: 400ms;
-}
-
-.spon:nth-child(5) {
   transition-delay: 100ms;
 }
 
+.spon:nth-child(4) {
+  transition-delay: 125ms;
+}
+
+.spon:nth-child(5) {
+  transition-delay: 50ms;
+}
+
 .spon:nth-child(6) {
-  transition-delay: 200ms;
+  transition-delay: 75ms;
 }
 
 .spon:nth-child(7) {
-  transition-delay: 300ms;
+  transition-delay: 100ms;
 }
 
 .spon:nth-child(8) {
-  transition-delay: 400ms;
+  transition-delay: 125ms;
 }
 
 /* Hacker Effect */
